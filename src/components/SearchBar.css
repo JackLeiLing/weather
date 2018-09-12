@@ -1,0 +1,21 @@
+.search-bar form{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    max-width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1rem;
+}
+.search-bar form .search-input{
+    flex: 4 4 30px;
+} 
+.search-bar form button{
+    flex: 1 1 30px;
+}
+
+@media screen and (max-width: 500px){
+    .search-bar form{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,8 @@
+.weather-list{
+    max-width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+svg{
+    height:150px;
+}
